@@ -4,7 +4,10 @@
     </head>
     <body>
 
-        <!-- Basic forms -->
+        <!-- Basic forms
+        <tr>: table Row
+        <td>: table data -->
+
         <h2>Registration Form</h2>
 
         <form>
@@ -33,17 +36,30 @@
                 </tr>
 
                 <tr>
-                    <td>Email</td>
-                    <td><input type="text"></td>
-                </tr>
-
-                <tr>
                     <td></td>
                 </tr>
 
                 <tr>
                     <td>Age</td>
                     <td><input type="number"></td>
+                </tr>
+
+                <!-- Radio button -->
+
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <!-- Radio button is group in nature to select only one we have 
+                        to put the same name for all the buttons -->
+
+                        <input type="radio" name="gender">male
+                        <input type="radio" name="gender">female
+                    </td>
+
+                    <tr>
+                        <td>D.O.B</td>
+                        <td><input type="date"></td>
+                    </tr>
                 </tr>
             </table>
         </form>
