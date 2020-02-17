@@ -11,37 +11,41 @@
     </style>
     </head>
     <body>
-        First Name:<input type="text"><br>
-        Last Name: <input type="text"><br>
-        <input type="checkbox">Fee Payment Complete?<br>
-        Cource: <input type="checkbox">Html,Css,JS
+        <!-- Here name is required to save the data to the server -->
+        <!-- To see the change fill the data in the form then 
+        click on the Register button, You can clearely see the url now -->
+        First Name:<input type="text" name="FIrst Name"><br>
+        Last Name: <input type="text" name="Lat Name"><br>
+        <input type="checkbox" name="Fee Payment">Fee Payment Complete?<br>
+        Cource: <input type="checkbox" name="Cource">Html,Css,JS
         <input type="checkbox">Angular
         <input type="checkbox">Java
         <input type="checkbox">.NET<br>
 
-        Attachment: <input type="file"><br>
+        Attachment: <input type="file" name="Attachment"><br>
 
         <!-- Choose Colour -->
-        Choose Color:<input type="color"><br>
+        Choose Color:<input type="color" name="Choosen Color"><br>
 
         <!-- Popup calender -->
-        Date of Payment:<input type="date"><br>
+        Date of Payment:<input type="date" name="D.O.P"><br>
 
         <!-- Time input -->
-        Choose Time:<input type="time"><br>
+        Choose Time:<input type="time" name="Choose Time"><br>
 
         <!-- Choose Month week and url-->
 
-        Choose Month:<input type="month"><br>
-        Choose Week:<input type="week"><br>
+        Choose Month:<input type="month" name="Choose Month"><br>
+        Choose Week:<input type="week" name="Choose Week"><br>
 
         <!-- Search Box -->
-        Search:<input type="Search"><br>
+        Search:<input type="Search" name=Search""><br>
         <!-- Input Number  -->
-       Amount:<input type="number"><br><br>
+       Amount:<input type="number" name="Amount"><br>
+       Range: <input type="range" min="0" max="100" name="Range"><br>
 
        <!-- Reset Button -->
-       <input type="submit">
+       <input type="submit" value="Register" name="Register">
         <input type="reset"><br>
     </body>
 </html5>
