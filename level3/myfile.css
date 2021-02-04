@@ -1,5 +1,42 @@
 
+h1
+{
+    color: black;
+}
+
+#m2
+{
+    color: yellow;
+}
+
+#m3
+{
+    color: darkslategrey;
+}
+
+#m4
+{
+    color: silver;
+}
 body
 {
     background-color: rosybrown;
+    background-image: url('background1.jpg');
+    background-repeat: no-repeat;
+}
+
+div
+{
+    height: 200px;
+    width: 400px;
+    background-color: green;
+    text-align: center;
+}
+
+.django
+{
+    height: 200px;
+    width: 400px;
+    background-image: url('background.jpg');
+    text-align: center;
 }
