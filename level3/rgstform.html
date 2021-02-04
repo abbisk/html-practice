@@ -3,31 +3,29 @@
 <head>
     <title>Registration Form</title>
     <link rel="stylesheet" href="myfile.css">
-
-    <!-- internal css -->
-
-    <!-- <style type="text/css">
-    h1{
-        color: red;
-    }
-    p{
-        color: seagreen;
-    }
-    </style> -->
+    <script src="myfile.js"></script>
 </head>
 <body>
-    <h1 style="color: rgb(12, 22, 17);" id="m1">Welcome to web debelopement</h1>
-    
     <div>
-        <h1 id="m2">Welcome</h1>
-    </div>
-
-    <div class="django">
-        <h1 id="m3">Hello django</h1>
-    </div>
-
-    <div class="django">
-        <h1 id="m4">Hello django</h1>
+        <form action="">
+        <h1>Registration</h1>
+        <input type="text" placeholder="First name" id="firstname"><input type="text" placeholder="last name" id="lastname"><br>
+        <br><input type="text" name="Address" placeholder="Address" id="address"><br>
+        <br><input type="text" name="Mobile No" placeholder="Mobile No" id="mobileno"><br>
+        <br><input type="text" name="Email Id" placeholder="Email id" id="emailid"><br>
+        <br><input type="date" name="Date of Birth" placeholder="Date of Birth" id="dateofbirth"><br>
+        <br><select id="test">
+            <option value="1">Python</option>
+            <option value="2">Django</option>
+            <option value="3">Java</option>
+            <option value="4">Arduino Uno</option>
+            <option value="5">Plc</option>
+            <option value="6">Scada</option>
+            <option value="7">ML</option>
+            <option value="8">AI</option>
+        </select><br>
+        <br><button id="button">Add</button><br>
+    </form>
     </div>
 </body>
 </html>
